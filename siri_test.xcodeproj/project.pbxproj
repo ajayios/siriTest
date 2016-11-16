@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A261A781DDC47AE00FAD8B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A261A771DDC47AE00FAD8B7 /* main.m */; };
+		7A261A7B1DDC47AE00FAD8B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A261A7A1DDC47AE00FAD8B7 /* AppDelegate.m */; };
+		7A261A7E1DDC47AE00FAD8B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A261A7D1DDC47AE00FAD8B7 /* ViewController.m */; };
+		7A261A811DDC47AE00FAD8B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A261A7F1DDC47AE00FAD8B7 /* Main.storyboard */; };
+		7A261A831DDC47AE00FAD8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A261A821DDC47AE00FAD8B7 /* Assets.xcassets */; };
+		7A261A861DDC47AE00FAD8B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A261A841DDC47AE00FAD8B7 /* LaunchScreen.storyboard */; };
+		7A261A951DDC482E00FAD8B7 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A261A941DDC482E00FAD8B7 /* IntentHandler.m */; };
+		7A261A9E1DDC482F00FAD8B7 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A261A9D1DDC482F00FAD8B7 /* IntentsUI.framework */; };
+		7A261AA21DDC482F00FAD8B7 /* IntentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A261AA11DDC482F00FAD8B7 /* IntentViewController.m */; };
+		7A261AA51DDC482F00FAD8B7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A261AA31DDC482F00FAD8B7 /* MainInterface.storyboard */; };
+		7A261AA91DDC482F00FAD8B7 /* testHaiGUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7A261A9B1DDC482E00FAD8B7 /* testHaiGUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7A261AAC1DDC482F00FAD8B7 /* testHaiG.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7A261A911DDC482E00FAD8B7 /* testHaiG.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A261AA71DDC482F00FAD8B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A261A6B1DDC47AD00FAD8B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A261A9A1DDC482E00FAD8B7;
+			remoteInfo = testHaiGUI;
+		};
+		7A261AAA1DDC482F00FAD8B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A261A6B1DDC47AD00FAD8B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A261A901DDC482E00FAD8B7;
+			remoteInfo = testHaiG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A261AB31DDC482F00FAD8B7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7A261AA91DDC482F00FAD8B7 /* testHaiGUI.appex in Embed App Extensions */,
+				7A261AAC1DDC482F00FAD8B7 /* testHaiG.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A261A731DDC47AE00FAD8B7 /* siri_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = siri_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A261A771DDC47AE00FAD8B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A261A791DDC47AE00FAD8B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A261A7A1DDC47AE00FAD8B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A261A7C1DDC47AE00FAD8B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A261A7D1DDC47AE00FAD8B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A261A801DDC47AE00FAD8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A261A821DDC47AE00FAD8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A261A851DDC47AE00FAD8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A261A871DDC47AE00FAD8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A261A911DDC482E00FAD8B7 /* testHaiG.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = testHaiG.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A261A931DDC482E00FAD8B7 /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
+		7A261A941DDC482E00FAD8B7 /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
+		7A261A961DDC482E00FAD8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A261A9B1DDC482E00FAD8B7 /* testHaiGUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = testHaiGUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A261A9D1DDC482F00FAD8B7 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		7A261AA01DDC482F00FAD8B7 /* IntentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentViewController.h; sourceTree = "<group>"; };
+		7A261AA11DDC482F00FAD8B7 /* IntentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentViewController.m; sourceTree = "<group>"; };
+		7A261AA41DDC482F00FAD8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		7A261AA61DDC482F00FAD8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A261A701DDC47AE00FAD8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A261A8E1DDC482E00FAD8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A261A981DDC482E00FAD8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A261A9E1DDC482F00FAD8B7 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A261A6A1DDC47AD00FAD8B7 = {
+			isa = PBXGroup;
+			children = (
+				7A261A751DDC47AE00FAD8B7 /* siri_test */,
+				7A261A921DDC482E00FAD8B7 /* testHaiG */,
+				7A261A9F1DDC482F00FAD8B7 /* testHaiGUI */,
+				7A261A9C1DDC482F00FAD8B7 /* Frameworks */,
+				7A261A741DDC47AE00FAD8B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A261A741DDC47AE00FAD8B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A261A731DDC47AE00FAD8B7 /* siri_test.app */,
+				7A261A911DDC482E00FAD8B7 /* testHaiG.appex */,
+				7A261A9B1DDC482E00FAD8B7 /* testHaiGUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A261A751DDC47AE00FAD8B7 /* siri_test */ = {
+			isa = PBXGroup;
+			children = (
+				7A261A791DDC47AE00FAD8B7 /* AppDelegate.h */,
+				7A261A7A1DDC47AE00FAD8B7 /* AppDelegate.m */,
+				7A261A7C1DDC47AE00FAD8B7 /* ViewController.h */,
+				7A261A7D1DDC47AE00FAD8B7 /* ViewController.m */,
+				7A261A7F1DDC47AE00FAD8B7 /* Main.storyboard */,
+				7A261A821DDC47AE00FAD8B7 /* Assets.xcassets */,
+				7A261A841DDC47AE00FAD8B7 /* LaunchScreen.storyboard */,
+				7A261A871DDC47AE00FAD8B7 /* Info.plist */,
+				7A261A761DDC47AE00FAD8B7 /* Supporting Files */,
+			);
+			path = siri_test;
+			sourceTree = "<group>";
+		};
+		7A261A761DDC47AE00FAD8B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A261A771DDC47AE00FAD8B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A261A921DDC482E00FAD8B7 /* testHaiG */ = {
+			isa = PBXGroup;
+			children = (
+				7A261A931DDC482E00FAD8B7 /* IntentHandler.h */,
+				7A261A941DDC482E00FAD8B7 /* IntentHandler.m */,
+				7A261A961DDC482E00FAD8B7 /* Info.plist */,
+			);
+			path = testHaiG;
+			sourceTree = "<group>";
+		};
+		7A261A9C1DDC482F00FAD8B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A261A9D1DDC482F00FAD8B7 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A261A9F1DDC482F00FAD8B7 /* testHaiGUI */ = {
+			isa = PBXGroup;
+			children = (
+				7A261AA01DDC482F00FAD8B7 /* IntentViewController.h */,
+				7A261AA11DDC482F00FAD8B7 /* IntentViewController.m */,
+				7A261AA31DDC482F00FAD8B7 /* MainInterface.storyboard */,
+				7A261AA61DDC482F00FAD8B7 /* Info.plist */,
+			);
+			path = testHaiGUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A261A721DDC47AE00FAD8B7 /* siri_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A261A8A1DDC47AE00FAD8B7 /* Build configuration list for PBXNativeTarget "siri_test" */;
+			buildPhases = (
+				7A261A6F1DDC47AE00FAD8B7 /* Sources */,
+				7A261A701DDC47AE00FAD8B7 /* Frameworks */,
+				7A261A711DDC47AE00FAD8B7 /* Resources */,
+				7A261AB31DDC482F00FAD8B7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A261AA81DDC482F00FAD8B7 /* PBXTargetDependency */,
+				7A261AAB1DDC482F00FAD8B7 /* PBXTargetDependency */,
+			);
+			name = siri_test;
+			productName = siri_test;
+			productReference = 7A261A731DDC47AE00FAD8B7 /* siri_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A261A901DDC482E00FAD8B7 /* testHaiG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A261AB01DDC482F00FAD8B7 /* Build configuration list for PBXNativeTarget "testHaiG" */;
+			buildPhases = (
+				7A261A8D1DDC482E00FAD8B7 /* Sources */,
+				7A261A8E1DDC482E00FAD8B7 /* Frameworks */,
+				7A261A8F1DDC482E00FAD8B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testHaiG;
+			productName = testHaiG;
+			productReference = 7A261A911DDC482E00FAD8B7 /* testHaiG.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7A261A9A1DDC482E00FAD8B7 /* testHaiGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A261AAD1DDC482F00FAD8B7 /* Build configuration list for PBXNativeTarget "testHaiGUI" */;
+			buildPhases = (
+				7A261A971DDC482E00FAD8B7 /* Sources */,
+				7A261A981DDC482E00FAD8B7 /* Frameworks */,
+				7A261A991DDC482E00FAD8B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testHaiGUI;
+			productName = testHaiGUI;
+			productReference = 7A261A9B1DDC482E00FAD8B7 /* testHaiGUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A261A6B1DDC47AD00FAD8B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Develope Tech";
+				TargetAttributes = {
+					7A261A721DDC47AE00FAD8B7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQCZW7P6A8;
+						ProvisioningStyle = Automatic;
+					};
+					7A261A901DDC482E00FAD8B7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQCZW7P6A8;
+						ProvisioningStyle = Automatic;
+					};
+					7A261A9A1DDC482E00FAD8B7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQCZW7P6A8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7A261A6E1DDC47AD00FAD8B7 /* Build configuration list for PBXProject "siri_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A261A6A1DDC47AD00FAD8B7;
+			productRefGroup = 7A261A741DDC47AE00FAD8B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A261A721DDC47AE00FAD8B7 /* siri_test */,
+				7A261A901DDC482E00FAD8B7 /* testHaiG */,
+				7A261A9A1DDC482E00FAD8B7 /* testHaiGUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A261A711DDC47AE00FAD8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A261A861DDC47AE00FAD8B7 /* LaunchScreen.storyboard in Resources */,
+				7A261A831DDC47AE00FAD8B7 /* Assets.xcassets in Resources */,
+				7A261A811DDC47AE00FAD8B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A261A8F1DDC482E00FAD8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A261A991DDC482E00FAD8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A261AA51DDC482F00FAD8B7 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A261A6F1DDC47AE00FAD8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A261A7E1DDC47AE00FAD8B7 /* ViewController.m in Sources */,
+				7A261A7B1DDC47AE00FAD8B7 /* AppDelegate.m in Sources */,
+				7A261A781DDC47AE00FAD8B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A261A8D1DDC482E00FAD8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A261A951DDC482E00FAD8B7 /* IntentHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A261A971DDC482E00FAD8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A261AA21DDC482F00FAD8B7 /* IntentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A261AA81DDC482F00FAD8B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A261A9A1DDC482E00FAD8B7 /* testHaiGUI */;
+			targetProxy = 7A261AA71DDC482F00FAD8B7 /* PBXContainerItemProxy */;
+		};
+		7A261AAB1DDC482F00FAD8B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A261A901DDC482E00FAD8B7 /* testHaiG */;
+			targetProxy = 7A261AAA1DDC482F00FAD8B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A261A7F1DDC47AE00FAD8B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A261A801DDC47AE00FAD8B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A261A841DDC47AE00FAD8B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A261A851DDC47AE00FAD8B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7A261AA31DDC482F00FAD8B7 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A261AA41DDC482F00FAD8B7 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A261A881DDC47AE00FAD8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A261A891DDC47AE00FAD8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A261A8B1DDC47AE00FAD8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQCZW7P6A8;
+				INFOPLIST_FILE = siri_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dtAjay.siri-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A261A8C1DDC47AE00FAD8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQCZW7P6A8;
+				INFOPLIST_FILE = siri_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dtAjay.siri-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A261AAE1DDC482F00FAD8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YQCZW7P6A8;
+				INFOPLIST_FILE = testHaiGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dtAjay.siri-test.testHaiGUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A261AAF1DDC482F00FAD8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YQCZW7P6A8;
+				INFOPLIST_FILE = testHaiGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dtAjay.siri-test.testHaiGUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7A261AB11DDC482F00FAD8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YQCZW7P6A8;
+				INFOPLIST_FILE = testHaiG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dtAjay.siri-test.testHaiG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A261AB21DDC482F00FAD8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YQCZW7P6A8;
+				INFOPLIST_FILE = testHaiG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dtAjay.siri-test.testHaiG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A261A6E1DDC47AD00FAD8B7 /* Build configuration list for PBXProject "siri_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A261A881DDC47AE00FAD8B7 /* Debug */,
+				7A261A891DDC47AE00FAD8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A261A8A1DDC47AE00FAD8B7 /* Build configuration list for PBXNativeTarget "siri_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A261A8B1DDC47AE00FAD8B7 /* Debug */,
+				7A261A8C1DDC47AE00FAD8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A261AAD1DDC482F00FAD8B7 /* Build configuration list for PBXNativeTarget "testHaiGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A261AAE1DDC482F00FAD8B7 /* Debug */,
+				7A261AAF1DDC482F00FAD8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A261AB01DDC482F00FAD8B7 /* Build configuration list for PBXNativeTarget "testHaiG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A261AB11DDC482F00FAD8B7 /* Debug */,
+				7A261AB21DDC482F00FAD8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A261A6B1DDC47AD00FAD8B7 /* Project object */;
+}
